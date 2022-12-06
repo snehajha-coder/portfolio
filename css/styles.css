@@ -1,0 +1,169 @@
+body {
+    background-color: #EFF1C5;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    display: block;
+    
+    margin-block-start: 0em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    font-size: 1.25em;
+    width: 80%;
+    padding: 0 10%;
+}
+
+hr {
+    border-style:dotted;
+    border-width: 10px;
+    margin : 70px 500px;
+    border-bottom: 0ch;
+    border-color: #022B3A;
+}
+
+.profilepic {
+    width: 200px;
+    position: relative;
+    top: 20px;
+}
+
+.learner {
+    font-size: 2em
+}
+
+.myname {
+    padding-top: 50px;
+    font-family: 'Caveat', cursive;
+    font-size: 5em;
+}
+
+.profile-pic {
+    width: 200px;
+}
+
+.top-container {
+    background-color: #E3E7AF;
+    position: relative;
+    padding-top: 100px;
+    height: 100%;
+
+}
+.ucloud {
+    width: 10%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+
+.bcloud {
+    width: 10%;
+   
+    position: absolute;
+    left : 10%;
+    top: 10%;
+}
+
+.mountain {
+    width: 100%;
+    object-fit: cover;
+    object-position: top left;
+    height: 300px;
+    opacity: .1;
+    left :0px;
+}
+
+.skillimg {
+    width: 80px;
+    text-align: center;
+}
+.para {
+    /* text-align: left; */
+    padding-left: 20px;
+}
+
+h3 {
+    line-height: 10px;
+    color: #1F7A8C;
+}
+
+h2 {
+    color: #022B3A;
+}
+
+.skills {
+    width: 90%;
+    padding-left:10%;
+    font-size:1.25em;
+    text-align: left;
+}
+
+.tableji {
+    border-spacing: 30px;
+}
+
+.bottom-container {
+    background-color: #E3E7AF;
+    height:120px;
+    font-size: 1.25em;
+}
+
+
+
+
+
+.button-71 {
+  background-color: #1F7A8C;
+  border: 0;
+  border-radius: 40px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  outline: 0;
+  padding: 16px 21px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-71:before {
+  background-color: initial;
+  background-image: linear-gradient(#fff 0, rgba(255, 255, 255, 0) 100%);
+  border-radius: 125px;
+  content: "";
+  height: 50%;
+  left: 4%;
+  opacity: .5;
+  position: absolute;
+  top: 0;
+  transition: all .3s;
+  width: 92%;
+}
+
+.button-71:hover {
+  box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+  transform: scale(1.05);
+}
+
+@media (min-width: 768px) {
+  .button-71 {
+    padding: 16px 48px;
+  }
+}
